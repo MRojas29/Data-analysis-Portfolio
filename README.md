@@ -35,3 +35,10 @@ What are the top two (ranked in decreasing order) single-channel media types tha
 | user_id      | int      |   |   |   |
 | age_group    | varchar  |   |   |   |
 | search_query | varchar  |
+
+## SQL query Practice 4
+### Workers With The Highest Salaries
+Find the titles of workers that earn the highest salary. Output the highest-paid title or multiple titles that share the highest salary.
+
+
+
