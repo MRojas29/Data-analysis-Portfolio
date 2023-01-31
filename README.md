@@ -41,4 +41,10 @@ What are the top two (ranked in decreasing order) single-channel media types tha
 Find the titles of workers that earn the highest salary. Output the highest-paid title or multiple titles that share the highest salary.
 
 
+## SQL query Practice 5
+### Finding User Purchases
+Write a query that'll identify returning active users. A returning active user is a user that has made a second purchase within 7 days of any other of their purchases. Output a list of user_ids of these returning active users.
+
+
+
 
