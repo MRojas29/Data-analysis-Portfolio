@@ -11,3 +11,21 @@ Preview
 | user_id            | int      |   |   |   |
 | created_at         | datetime |   |   |   |
 | number_of_comments | int      |   |   |   |
+
+
+
+## SQL query Practice 2
+Count the number of users who made more than 5 searches in August 2021.
+
+| fb_searches  |          |   |   |   |
+|--------------|----------|---|---|---|
+| date         | datetime |   |   |   |
+| search_id    | int      |   |   |   |
+| user_id      | int      |   |   |   |
+| age_group    | varchar  |   |   |   |
+| search_query | varchar  |   |   |   |
+|              |          |   |   |   |
+|              |          |   |   |   |
+|              |          |   |   |   |
+|              |          |   |   |   |
+|              |          |   |   |   |
