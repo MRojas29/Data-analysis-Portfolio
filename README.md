@@ -24,3 +24,14 @@ Count the number of users who made more than 5 searches in August 2021.
 | user_id      | int      |   |   |   |
 | age_group    | varchar  |   |   |   |
 | search_query | varchar  |   |   |   |
+
+##SQL query Practice 3
+Top Two Media Types
+What are the top two (ranked in decreasing order) single-channel media types that correspond to the most money the grocery chain had spent on its promotional campaigns?
+| fb_searches  |          |   |   |   |
+|--------------|----------|---|---|---|
+| date         | datetime |   |   |   |
+| search_id    | int      |   |   |   |
+| user_id      | int      |   |   |   |
+| age_group    | varchar  |   |   |   |
+| search_query | varchar  |
