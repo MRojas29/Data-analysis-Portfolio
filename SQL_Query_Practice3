@@ -1,0 +1,4 @@
+SELECT media_type, sum(cost)
+FROM facebook_sales_promotions
+GROUP BY media_type
+ORDER BY SUM(cost) DESC LIMIT 2
