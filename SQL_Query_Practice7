@@ -1,0 +1,3 @@
+SELECT ABS(MAX(salary) FILTER (WHERE department = 'marketing') - MAX(salary) FILTER (WHERE department = 'engineering'))  
+FROM db_employee e
+LEFT JOIN db_dept d ON e.department_id = d.id;
