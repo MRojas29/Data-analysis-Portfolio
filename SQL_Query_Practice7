@@ -1,3 +1,19 @@
 SELECT ABS(MAX(salary) FILTER (WHERE department = 'marketing') - MAX(salary) FILTER (WHERE department = 'engineering'))  
 FROM db_employee e
 LEFT JOIN db_dept d ON e.department_id = d.id;
+
+
+
+
+//OTHER OPTION
+
+with cte as (
+    select department_id, max(salary) as salary
+    from db_employee as e
+    join db_dept as d
+    on d.id = e.department_id
+    where d.department in ('marketing', 'engineering')
+    group by department_id
+)
+
+select max(salary)-min(salary) as salary_diff from cte
