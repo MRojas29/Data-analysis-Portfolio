@@ -1,0 +1,4 @@
+select department, first_name, salary, 
+(select avg(salary) from employee e2 
+WHERE e2.department=e1.department ) from employee e1 
+ORDER BY department;
